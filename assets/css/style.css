@@ -207,3 +207,6 @@ nav ul li {
     padding: 20px;
     margin: 10px;
 }
+.project-link {
+    color: var(--text-logo);
+}
