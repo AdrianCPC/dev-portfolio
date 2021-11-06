@@ -217,4 +217,39 @@ nav ul li {
 Contact section
 ========================================
 */
-
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: var(--font-family);
+    /* background: var(--primary-color); */
+}
+.contact-title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 40px;
+    color: var(--text-one);
+}
+form {
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: var(--bg-color);
+}
+.contact-form {
+    width: 100%;
+    margin: auto;
+}
+form .form-control {
+    position: relative;
+    margin: 45px;
+}
+input,
+textarea {
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 8px 8px 8px 5px;
+}
